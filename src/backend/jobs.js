@@ -11,7 +11,7 @@ export async function runScheduledTasks() {
 }
 
 export async function scheduleDailyPullTask() {
-  return await _scheduleDailyPullTask();
+  return await _scheduleDailyPullTask({ isTestEnvironment: true });
 }
 
 export async function updateSiteMapS3() {
