@@ -283,7 +283,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/auto_sdk_members_members-about",\
-        "npm:1.0.64"\
+        "npm:1.0.65"\
       ],\
       [\
         "@wix/auto_sdk_members_user-member",\
@@ -371,7 +371,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@wix/members",\
-        "npm:1.0.450"\
+        "npm:1.0.451"\
       ],\
       [\
         "@wix/monitoring",\
@@ -451,7 +451,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "abmp-npm",\
-        "npm:2.0.66"\
+        "npm:10.3.6"\
       ],\
       [\
         "agent-base",\
@@ -671,7 +671,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["abmp-npm", "npm:2.0.66"]\
+            ["abmp-npm", "npm:10.3.6"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1480,10 +1480,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/auto_sdk_members_members-about", [\
-        ["npm:1.0.64", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_members_members-about-npm-1.0.64-3530238eb5-8c0.zip/node_modules/@wix/auto_sdk_members_members-about/",\
+        ["npm:1.0.65", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-auto_sdk_members_members-about-npm-1.0.65-c35f2c7e4d-8c0.zip/node_modules/@wix/auto_sdk_members_members-about/",\
           "packageDependencies": [\
-            ["@wix/auto_sdk_members_members-about", "npm:1.0.64"],\
+            ["@wix/auto_sdk_members_members-about", "npm:1.0.65"],\
             ["@wix/sdk-runtime", "npm:1.0.14"],\
             ["@wix/sdk-types", "npm:1.17.8"],\
             ["zod", "npm:4.4.3"]\
@@ -1852,10 +1852,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@wix/members", [\
-        ["npm:1.0.450", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-members-npm-1.0.450-cdb3d9c82f-8c0.zip/node_modules/@wix/members/",\
+        ["npm:1.0.451", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/@wix-members-npm-1.0.451-63e292271b-8c0.zip/node_modules/@wix/members/",\
           "packageDependencies": [\
-            ["@wix/members", "npm:1.0.450"],\
+            ["@wix/members", "npm:1.0.451"],\
             ["@wix/auto_sdk_members_authentication", "npm:1.0.42"],\
             ["@wix/auto_sdk_members_authorization", "npm:1.0.34"],\
             ["@wix/auto_sdk_members_badge-assignments", "npm:1.0.28"],\
@@ -1871,7 +1871,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@wix/auto_sdk_members_member-role-definition", "npm:1.0.44"],\
             ["@wix/auto_sdk_members_member-to-member-block", "npm:1.0.34"],\
             ["@wix/auto_sdk_members_members", "npm:1.0.114"],\
-            ["@wix/auto_sdk_members_members-about", "npm:1.0.64"],\
+            ["@wix/auto_sdk_members_members-about", "npm:1.0.65"],\
             ["@wix/auto_sdk_members_user-member", "npm:1.0.50"]\
           ],\
           "linkType": "HARD"\
@@ -2152,17 +2152,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["abmp-npm", [\
-        ["npm:2.0.66", {\
-          "packageLocation": "../dynamic-modules/yarn-cache/cache/abmp-npm-npm-2.0.66-e9df8be1a6-8c0.zip/node_modules/abmp-npm/",\
+        ["npm:10.3.6", {\
+          "packageLocation": "../dynamic-modules/yarn-cache/cache/abmp-npm-npm-10.3.6-f8ba4bf5bd-8c0.zip/node_modules/abmp-npm/",\
           "packageDependencies": [\
-            ["abmp-npm", "npm:2.0.66"],\
+            ["abmp-npm", "npm:10.3.6"],\
             ["@wix/automations", "npm:1.0.426"],\
             ["@wix/crm", "npm:1.0.1534"],\
             ["@wix/data", "npm:1.0.460"],\
             ["@wix/essentials", "npm:0.1.28"],\
             ["@wix/identity", "npm:1.0.195"],\
             ["@wix/media", "npm:1.0.247"],\
-            ["@wix/members", "npm:1.0.450"],\
+            ["@wix/members", "npm:1.0.451"],\
             ["@wix/secrets", "npm:1.0.71"],\
             ["@wix/site-location", "npm:1.34.0"],\
             ["@wix/site-members", "npm:1.36.0"],\
@@ -2771,7 +2771,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["user-code", "workspace:."],\
-            ["abmp-npm", "npm:2.0.66"]\
+            ["abmp-npm", "npm:10.3.6"]\
           ],\
           "linkType": "SOFT"\
         }]\
