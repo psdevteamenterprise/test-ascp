@@ -5,6 +5,7 @@ import {
   scheduleContactFormEmailMigration,
   scheduleEmailSync,
   scheduleFixPrimaryAddressForMembersTask as _scheduleFixPrimaryAddressForMembersTask,
+  scheduleNormalizeMemberEmailsTask as _scheduleNormalizeMemberEmailsTask,
   runDailyPullExecutionCheck as _runDailyPullExecutionCheck,
 } from 'abmp-npm/backend';
 
@@ -45,4 +46,8 @@ export async function scheduleFixPrimaryAddressForMembersTask() {
 
 export async function runDailyPullExecutionCheck() {
   return await _runDailyPullExecutionCheck();
+}
+
+export async function scheduleNormalizeMemberEmailsTask(){
+  return await _scheduleNormalizeMemberEmailsTask();
 }
